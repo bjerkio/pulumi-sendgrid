@@ -12,37 +12,9 @@
 
 * [ApiKeyInputs](interfaces/apikeyinputs.md)
 
-### Variables
-
-* [auth](README.md#let-auth)
-
-### Functions
-
-* [setAuth](README.md#setauth)
-
 ### Object literals
 
 * [apiKeyProvider](README.md#const-apikeyprovider)
-
-## Variables
-
-### `Let` auth
-
-• **auth**: *string* = "token invalid"
-
-## Functions
-
-###  setAuth
-
-▸ **setAuth**(`token`: string): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`token` | string |
-
-**Returns:** *void*
 
 ## Object literals
 

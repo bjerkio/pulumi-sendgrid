@@ -2,6 +2,15 @@
 
 # Class: ApiKey
 
+To create your initial SendGrid API Key, you should [use the SendGrid App](https://app.sendgrid.com/settings/api_keys).
+Once your first key exists, you can use this provider for future API requests.
+
+There is a limit of 100 API Keys on your account.
+
+The API Keys feature allows customers to generate an API Key credential which can be used
+for authentication with the [SendGrid v3 API](https://sendgrid.api-docs.io/v3.0/how-to-use-the-sendgrid-v3-api/api-authentication).
+See the [API Key Permissions List](https://sendgrid.api-docs.io/v3.0/how-to-use-the-sendgrid-v3-api/api-authorization) for all available scopes.
+
 ## Hierarchy
 
 * Resource
@@ -16,6 +25,7 @@
 
 ### Properties
 
+* [apiKey](apikey.md#readonly-apikey)
 * [id](apikey.md#readonly-id)
 * [urn](apikey.md#readonly-urn)
 
@@ -43,6 +53,12 @@ Name | Type |
 **Returns:** *[ApiKey](apikey.md)*
 
 ## Properties
+
+### `Readonly` apiKey
+
+• **apiKey**: *pulumi.Output‹string›*
+
+___
 
 ### `Readonly` id
 

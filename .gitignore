@@ -78,6 +78,8 @@ typings/
 # Next.js build output
 .next
 
+coverage
+
 # Nuxt.js build / generate output
 .nuxt
 dist
