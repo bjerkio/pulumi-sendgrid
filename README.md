@@ -7,6 +7,12 @@ please wait for the supported, stable release.
 
 This client library is used to handle resources from Twilio SendGrid v3 Web API. To be notified when this package is updated, please subscribe to email notifications for releases and breaking changes.
 
+## Quickstart
+
+```shell
+$> yarn add pulumi-sendgrid
+```
+
 ## Documentation
 
 Apart from this README, you can find details and examples of using the SDK in
