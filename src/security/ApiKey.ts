@@ -1,11 +1,7 @@
 import * as pulumi from '@pulumi/pulumi';
 import * as sendgrid from '@sendgrid/client';
 
-// Set this value before creating an instance to configure the authentication token to use for deployments
-let auth = 'token invalid';
-export function setAuth(token: string) {
-  auth = token;
-}
+import '../setApiKey'
 
 export interface ApiKeyInputs {
   /**

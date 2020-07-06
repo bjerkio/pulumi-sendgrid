@@ -13,6 +13,9 @@ This client library is used to handle resources from Twilio SendGrid v3 Web API.
 $> yarn add pulumi-sendgrid
 ```
 
+Currently, the provider only supports setting API Key with environment variables.
+Set `SENDGRID_API_KEY` to your token.
+
 ## Documentation
 
 Apart from this README, you can find details and examples of using the SDK in
