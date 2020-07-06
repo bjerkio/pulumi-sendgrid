@@ -1,6 +1,6 @@
 {
   "name": "pulumi-sendgrid",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "A SendGrid Pulumi resource package, providing access to SendGrid",
   "main": "build/index.js",
   "repository": "git@github.com:bjerkio/pulumi-sendgrid.git",
