@@ -2,34 +2,18 @@
   "name": "pulumi-sendgrid",
   "version": "1.0.0-alpha.3",
   "description": "A SendGrid Pulumi resource package, providing access to SendGrid",
-  "main": "build/index.js",
-  "repository": "git@github.com:bjerkio/pulumi-sendgrid.git",
+  "repository": "github:bjerkio/pulumi-sendgrid",
+  "license": "APACHE-2.0",
   "author": "<cobraz@cobraz.no>",
+  "main": "build/index.js",
   "files": [
     "build/**/*"
   ],
-  "license": "APACHE-2.0",
-  "devDependencies": {
-    "@types/faker": "^4.1.5",
-    "@types/jest": "^24.0.17",
-    "@types/node": "^12.7.1",
-    "faker": "^4.1.0",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
-    "typedoc": "^0.17.3",
-    "typedoc-plugin-markdown": "^2.2.16",
-    "typescript": "^3.9.2"
-  },
   "scripts": {
     "test": "PULUMI_TEST_MODE=true PULUMI_NODEJS_STACK=test-ws PULUMI_NODEJS_PROJECT=dev jest --coverage src --passWithNoTests",
     "build": "tsc",
     "prepublishOnly": "yarn run build",
     "generate:docs": "typedoc --mode file --readme none --plugin typedoc-plugin-markdown --hideSources --out docs src"
-  },
-  "dependencies": {
-    "@pulumi/pulumi": "^2.2.1",
-    "@sendgrid/client": "^7.2.1",
-    "graphql": "^15.0.0"
   },
   "jest": {
     "coveragePathIgnorePatterns": [
@@ -49,5 +33,21 @@
       "/__fixtures__/",
       "<rootDir>/build"
     ]
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^2.2.1",
+    "@sendgrid/client": "^7.2.1",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.5",
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.1",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typedoc": "^0.17.3",
+    "typedoc-plugin-markdown": "^2.2.16",
+    "typescript": "^3.9.2"
   }
 }
